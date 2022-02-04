@@ -6,6 +6,10 @@ const port =8000;
 
 // require layout
 const expressLayouts=require('express-ejs-layouts');
+
+// reqiure mogoose
+const db=require('./config/mongoose');
+
 app.use(expressLayouts);
 // set up static fles 
 app.use(express.static('./assets'));
