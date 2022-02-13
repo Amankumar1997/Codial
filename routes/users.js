@@ -1,6 +1,6 @@
 const express= require('express');
 const router =express.Router();
-
+const passport =require('passport');
 
 // acsses user controler
 const users_controller=require('../controllers/users_controller');
